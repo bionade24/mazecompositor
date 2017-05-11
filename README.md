@@ -2,7 +2,7 @@ Qt 5 / qtwayland based toy 3D compositor
 
 Showcases the use of qtwayland's compositor API for creating a 3D wayland compositor.
 
-![Screenshot of mazecompositor](http://github.com/capisce/mazecompositor/raw/master/screenshot.png)
+![Screenshot of mazecompositor](/screenshot.png)
 
 Attributions:
 
