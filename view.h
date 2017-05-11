@@ -33,6 +33,7 @@
 #include <QWindow>
 #include <QVector>
 #include <QVector3D>
+#include <QWaylandSeat>
 
 #include "camera.h"
 #include "map.h"
@@ -210,7 +211,7 @@ private:
     QList<SurfaceItem *> m_dockedSurfaces;
 
     Map m_map;
-    QWaylandInputDevice *m_input;
+    QWaylandSeat *m_input;
     SurfaceItem *m_focus;
     QVector2D m_resizeGrip;
     QPolygonF m_portalPoly;

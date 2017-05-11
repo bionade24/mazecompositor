@@ -27,9 +27,6 @@
 #include "light.h"
 #include "mesh.h"
 #include "surfaceitem.h"
-
-#include "qwaylandinput.h"
-
 #include <QGuiApplication>
 #include <QKeyEvent>
 #include <QLineF>
@@ -403,7 +400,7 @@ View::View(const QRect &geometry)
 
     m_compositor = new Compositor(this);
     m_compositor->create();
-    m_input = m_compositor->defaultInputDevice();
+    m_input = m_compositor->defaultSeat();
 }
 
 View::~View()

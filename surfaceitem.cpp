@@ -218,7 +218,7 @@ uint SurfaceItem::textureId()
         glGenTextures(1, &m_textureId);
         glBindTexture(GL_TEXTURE_2D, m_textureId);
         glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-        currentBuffer().bindToTexture();
+        currentBuffer().toOpenGLTexture();//currentBuffer().bindToTexture();
     }
 
     return m_textureId;

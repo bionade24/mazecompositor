@@ -14,4 +14,5 @@ QT += gui waylandcompositor waylandcompositor-private
 
 # Input
 SOURCES += main.cpp view.cpp mesh.cpp camera.cpp entity.cpp surfaceitem.cpp map.cpp light.cpp common.cpp
-HEADERS += view.h point.h mesh.h camera.h entity.h surfaceitem.h map.h light.h
+HEADERS += view.h point.h mesh.h camera.h entity.h surfaceitem.h map.h
+QMAKE_CXXFLAGS += -std=c++11
