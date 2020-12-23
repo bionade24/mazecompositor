@@ -35,6 +35,7 @@
 #include <QOpenGLFramebufferObject>
 #include <QOpenGLPaintDevice>
 #include <QPainter>
+#include <QPainterPath>
 #include <QTimer>
 
 #include <qopengl.h>
